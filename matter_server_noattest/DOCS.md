@@ -27,7 +27,7 @@ WebSocket этого add-on (порт **5581**).
 ## Установка на Home Assistant OS
 
 1. Сделайте резервную копию Home Assistant и официального Matter Server.
-2. Добавьте `https://github.com/betweend/matter` в **Settings → Add-ons → Add-on
+2. Добавьте `https://github.com/betweend/matter2` в **Settings → Add-ons → Add-on
    store → ⋮ → Repositories**.
 3. Установите **Matter Server (attestation opt-in)** (версия вида
    `9.2.0-noattest.x`). В списке установленных должны быть **два** приложения:

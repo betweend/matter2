@@ -1,12 +1,12 @@
 ---
-version: 9.2.0-noattest.4
+version: 9.2.0-noattest.5
 slug: matter_server_noattest
 name: Matter Server (attestation opt-in)
 description: >-
   Separate Matter Server (not the official Home Assistant app). Open THIS
   app to configure attestation bypass and related options, then point the
   Matter integration at its WebSocket on TCP 5581.
-url: https://github.com/betweend/matter
+url: https://github.com/betweend/matter2
 arch:
   - aarch64
   - amd64
@@ -20,7 +20,6 @@ ingress_port: 5581
 panel_icon: mdi:shield-alert
 panel_title: Matter (attestation)
 init: false
-watchdog: true
 map:
   - type: app_config
     read_only: false

@@ -1,5 +1,10 @@
 # Changelog
 
+## 9.2.0-noattest.5
+
+- Remove the invalid boolean watchdog setting; Supervisor watchdog expects a URL.
+- Publish this release from the `matter2` repository.
+
 ## 9.2.0-noattest.4
 
 - Run as a separate add-on on TCP 5581 so it can start next to official Matter Server 9.2.0.
