@@ -45,5 +45,5 @@ ENV STORAGE_PATH=/data
 EXPOSE 5581
 VOLUME ["/data"]
 
-USER 1000:1000
+USER root
 ENTRYPOINT ["node", "/usr/local/bin/run.mjs"]

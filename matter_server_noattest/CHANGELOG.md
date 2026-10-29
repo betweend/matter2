@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.2.0-noattest.6
+
+- Read Supervisor options before dropping privileges, then run the server as UID/GID 1000.
+
 ## 9.2.0-noattest.5
 
 - Remove the invalid boolean watchdog setting; Supervisor watchdog expects a URL.
