@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.2.0-noattest.7
+
+- Fix ownership of the Supervisor-mounted data directory before dropping privileges.
+
 ## 9.2.0-noattest.6
 
 - Read Supervisor options before dropping privileges, then run the server as UID/GID 1000.
