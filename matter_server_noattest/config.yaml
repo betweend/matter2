@@ -1,5 +1,5 @@
 ---
-version: 9.2.0-noattest.7
+version: 9.2.0-noattest.8
 slug: matter_server_noattest
 name: Matter Server (attestation opt-in)
 description: >-

@@ -1,5 +1,10 @@
 # Changelog
 
+## 9.2.0-noattest.8
+
+- Keep the Supervisor-mounted data directory writable by running Matter Server with the container's default root user.
+- Remove the custom recursive ownership change and privilege drop.
+
 ## 9.2.0-noattest.7
 
 - Fix ownership of the Supervisor-mounted data directory before dropping privileges.

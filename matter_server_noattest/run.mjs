@@ -7,13 +7,6 @@ const OFFICIAL_SLUG = "core_matter_server";
 
 const options = JSON.parse(readFileSync("/data/options.json", "utf8"));
 
-if (process.getuid?.() === 0) {
-    execFileSync("chown", ["-R", "1000:1000", "/data"]);
-    process.setgroups([]);
-    process.setgid(1000);
-    process.setuid(1000);
-}
-
 function supervisorHeaders() {
     const token = process.env.SUPERVISOR_TOKEN;
     if (!token) return null;
